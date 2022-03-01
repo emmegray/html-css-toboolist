@@ -17,19 +17,18 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    position:sticky;
 }
 
 .logo {
     padding-left: 5px;
     max-height: 50px;
     width: auto;
-    position:fixed;
 }
 
 .logo-text {
     font-size: 40px;
     display: inline-block;
-    padding-left: 60px;
 }
 
 /* MAIN */
@@ -37,7 +36,8 @@ header {
 main {
     background-color: #f6f8f9;
     padding-top: 30px;
-    
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .container {
@@ -57,7 +57,7 @@ main {
 }
 
 button {
-    background-color: #47adf1;;
+    background-color: #47adf1;
     border: none;
     color: white;
     padding: 8px 20px;
@@ -74,14 +74,46 @@ button.add-section {
     border: gray;
 }
 
-button.editorial {
+button.tag {
     border-radius: 30px;
     font-size: 10px;
+}
+
+button.tag.purple {
+    background-color: #9c72e4;
+}
+
+button.tag.orange {
+    background-color: #f29e33;
+}
+
+button.tag.pink {
+    background-color: #d761a0;
+}
+
+button.tag.green {
+    background-color: #64c0a9;
+}
+
+button.tag.peagreen {
+    background-color: #b0c926;
 }
 
 .task-list {
     background-color: aqua;
     padding: 10px;
+}
+
+.task-list h3.open::before{
+    content: "⏷";
+}
+
+.task-list ul {
+    list-style: none;
+}
+
+.task-list ul li{
+    margin-bottom: 10px;
 }
 
 .mark {
@@ -99,7 +131,15 @@ button.editorial {
     border-color: green;
 }
 
+.mark.check::after {
+    content: "✓";
+}
+
 .mark.cross {
     color: rgb(128, 0, 0);
     border-color: rgb(128, 0, 0);
+}
+
+.mark.cross::after {
+    content: "✘";
 }
