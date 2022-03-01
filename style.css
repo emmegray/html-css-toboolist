@@ -68,6 +68,11 @@ button.add-section {
     border: gray;
 }
 
+button.editorial {
+    border-radius: 30px;
+    font-size: 10px;
+}
+
 .task-list {
     background-color: aqua;
     padding: 10px;
