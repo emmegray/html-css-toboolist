@@ -1,5 +1,60 @@
 /* GENERAL */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* HEADER */
 
+header {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-left: 5px;
+    max-height: 50px;
+    width: auto;
+    position:fixed;
+}
+
+.logo-text {
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 60px;
+}
+
 /* MAIN */
+
+main {
+    background-color: #f6f8f9;
+    padding-top: 30px;
+    
+}
+
+.container {
+    background-color: #3e7794;
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+button {
+    background-color: #47adf1;;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.text-list {
+    background-color: aqua;
+
+}
