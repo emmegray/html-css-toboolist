@@ -1,5 +1,10 @@
 /* GENERAL */
 
+body {
+    
+    background-color: #f6f8f9;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +23,11 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     position:sticky;
+    background-color: white;
 }
 
 .logo {
-    padding-left: 5px;
-    max-height: 50px;
+    vertical-align: bottom;
     width: auto;
     display: inline-block;
 }
@@ -30,8 +35,6 @@ header {
 .logo-text {
     font-size: 40px;
     display: inline-block;
-    height: 40px;
-    margin-bottom: 10px;
 }
 
 /* MAIN */
@@ -44,7 +47,6 @@ main {
 }
 
 .container {
-    background-color: white;
     padding: 50px;
     max-width: 800px;
     margin-left: 80px;
@@ -52,10 +54,10 @@ main {
     border-radius: 10px;
 }
 
-.buttons {
-    padding-bottom: 40px;
-    border-style: solid;
-    border: #f6f8f9;
+.buttons,.task-list {
+    background-color: white;
+    padding: 20px 60px;
+    margin: 1px;
 }
 
 button {
@@ -99,10 +101,6 @@ button.tag.green {
 
 button.tag.peagreen {
     background-color: #b0c926;
-}
-
-.task-list {
-    padding: 10px;
 }
 
 .task-list h3.open::before{
