@@ -19,22 +19,22 @@ h3 {
 /* HEADER */
 
 header {
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
     position:sticky;
     background-color: white;
 }
 
 .logo {
-    vertical-align: bottom;
+    vertical-align: middle;
     width: auto;
     display: inline-block;
 }
 
 .logo-text {
-    font-size: 40px;
-    display: inline-block;
+    font-size: 35px;
+    font-weight: bolder;
+    vertical-align: middle;
 }
 
 /* MAIN */
