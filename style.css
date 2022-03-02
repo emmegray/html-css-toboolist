@@ -112,6 +112,7 @@ button.tag.peagreen {
 
 .task-list ul {
     list-style: none;
+    padding: 10px;
 }
 
 .task-list ul li{
